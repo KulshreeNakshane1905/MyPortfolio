@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kulshree Nakshane - Full Stack Developer & Designer Portfolio">
+    <meta name="keywords" content="portfolio, web developer, full stack , designer">
+    <title>Kulshree Nakshane | Full Stack Developer &  Designer</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="main.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__wrapper">
+                <div class="nav__logo">
+                    <a href="#" class="logo">KN</a>
+                </div>
+                
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Hi, I'm <span class="highlight">Kulshree Nakshane <span></h1>
+                    <h2 class="hero__subtitle">Full Stack Developer & Designer</h2>
+                    <p class="hero__description">Crafting beautiful, functional, and user-centered digital experiences</p>
+                    <div class="hero__buttons">
+                        <a href="#portfolio" class="button button--primary">View My Work</a>
+                        <a href="#contact" class="button button--secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero__scroll">
+                    <a href="#about" class="scroll-down">
+                        <span>Scroll Down</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero__background">
+                <div id="particles-js"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about__container">
+                    <div class="about__content">
+                        <p class="about__description">
+                            I am a dedicated and enthusiastic Full Stack Developer and Designer, currently pursuing my third year in Computer Engineering. With hands-on experience in developing and designing modern web applications, I bring a well-rounded blend of technical proficiency and creative problem-solving abilities.
+                        </p>
+                        <p class="about__description">
+                            My journey in the field of technology began with a strong curiosity for how digital systems work, which gradually evolved into a deep passion for building efficient, user-centric applications. Over the years, I have honed my skills in both front-end and back-end development, gaining practical knowledge in technologies such as HTML, CSS, JavaScript, React, Node.js, Machine Learning and various database systems.
+                        </p>
+                        <p class="about__description">
+                            In parallel, my interest in design has enabled me to understand the importance of user experience and visual appeal. I consistently create intuitive and aesthetically pleasing interfaces that enhance the overall functionality of the applications I develop. As a Computer Engineering student, I am constantly driven to expand my knowledge, explore emerging technologies, and contribute to impactful projects. I take pride in my ability to bridge the gap between design and development, and I am committed to delivering innovative digital solutions that meet both user and business needs.
+                        </p>
+                        <div class="about__buttons">
+                            <a href="assets/resume.pdf" class="button button--primary" download>
+                                <i class="fas fa-download"></i> Download Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3 class="skills__title">My Skills</h3>
+                    <div class="skills__container">
+                        <!-- Skills will be dynamically populated via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2 class="section__title">My Services</h2>
+                <div class="services__grid">
+                    <div class="service__card">
+                        <i class="fas fa-code service__icon"></i>
+                        <h3 class="service__title">Web Development</h3>
+                        <p class="service__description">
+                            Creating responsive and dynamic web applications using modern technologies and best practices.
+                        </p>
+                        <ul class="service__features">
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Responsive Web Design
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Frontend Development
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Backend Integration
+                            </li>
+                        </ul>
+                        <a href="#contact" class="service__button">
+                            Get Started <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="fas fa-mobile-alt service__icon"></i>
+                        <h3 class="service__title">Mobile Development</h3>
+                        <p class="service__description">
+                            Building cross-platform mobile applications with modern frameworks and native features.
+                        </p>
+                        <ul class="service__features">
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Cross-platform Apps
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Native Features
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Performance Optimization
+                            </li>
+                        </ul>
+                        <a href="#contact" class="service__button">
+                            Get Started <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="fas fa-paint-brush service__icon"></i>
+                        <h3 class="service__title">Design</h3>
+                        <p class="service__description">
+                            Designing intuitive and engaging user interfaces with a focus on user experience and aesthetics.
+                        </p>
+                        <ul class="service__features">
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                UI/UX Design
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Wireframing
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Prototyping
+                            </li>
+                        </ul>
+                        <a href="#contact" class="service__button">
+                            Get Started <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="service__card">
+                        <i class="fas fa-server service__icon"></i>
+                        <h3 class="service__title">Backend Development</h3>
+                        <p class="service__description">
+                            Developing robust and scalable server-side applications and APIs with modern technologies.
+                        </p>
+                        <ul class="service__features">
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                API Development
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Database Design
+                            </li>
+                            <li class="service__feature">
+                                <i class="fas fa-check-circle"></i>
+                                Server Management
+                            </li>
+                        </ul>
+                        <a href="#contact" class="service__button">
+                            Get Started <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <h2 class="section__title">My Portfolio</h2>
+                <div class="portfolio__filters">
+                    <button class="portfolio__filter active" data-filter="all">All</button>
+                    <button class="portfolio__filter" data-filter="web">Web</button>
+                    <button class="portfolio__filter" data-filter="mobile">Mobile</button>
+                    <button class="portfolio__filter" data-filter="design">Design</button>
+                </div>
+                <div class="portfolio__container grid">
+                    <!-- Portfolio items will be dynamically populated via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">Let's talk about your project</h3>
+                        <p class="contact__description">
+                            I'm currently available for developement and design  work for full-time positions. 
+                            Feel free to reach out if you have a project in mind or just want to connect.
+                        </p>
+                        <div class="contact__details">
+                            <div class="contact__item copyable" data-copy="kulshreenakshane@gmail.com">
+                                <i class="fas fa-envelope"></i>
+                                <span>kulshreenakshane@gmail.com</span>
+                            </div>
+                            <div class="contact__item copyable" data-copy="918459694332">
+                                <i class="fas fa-phone"></i>
+                                <span>91+ 8459694332</span>
+                            </div>
+                            <div class="contact__item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Maharashta India</span>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <a href="#" class="contact__social-link" aria-label="GitHub Profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="contact__social-link" aria-label="LinkedIn Profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="contact__social-link" aria-label="Twitter Profile" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group">
+                            <input type="text" name="name" id="name" class="form__input" placeholder="Your Name" required>
+                            <label for="name" class="form__label">Your Name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" name="email" id="email" class="form__input" placeholder="Your Email" required>
+                            <label for="email" class="form__label">Your Email</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" name="subject" id="subject" class="form__input" placeholder="Subject" required>
+                            <label for="subject" class="form__label">Subject</label>
+                        </div>
+                        <div class="form__group">
+                            <textarea name="message" id="message" class="form__input" placeholder="Your Message" required></textarea>
+                            <label for="message" class="form__label">Your Message</label>
+                        </div>
+                        <button type="submit" class="button button--primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">KN</a>
+                    <p class="footer__description">
+                        Creating digital experiences that make a difference.
+                    </p>
+                </div>
+                <div class="footer__links">
+                    <h3 class="footer__title">Quick Links</h3>
+                    <ul class="footer__list">
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#services" class="footer__link">Services</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copy">
+                    &copy; 2025 Kulshree Nakshane . All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html> 
